@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background: linear-gradient(135deg, #3a0ca3, #7209b7, #f72585);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items:start;
+    padding: 15px 50px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
+    border-radius: 15px;
+}
+
+.navbar-logo img {
+    height: 30px;
+    width: auto;
+}
+
+.navbar-title h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: yellow;
+    margin: 0px;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-buttons button {
+    background: transparent;
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.navbar-buttons button:hover {
+    background: #ffbe0b;
+    color: black;
+    cursor: pointer;
+}
+
+.heading {
+    margin-top: 100px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.main-content {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #f0f0f0;
+    font-style: italic;
+}
+
+.subimage {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.subimage1, .subimage2, .subimage3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffbe0b;
+    text-shadow: 0 0 10px rgba(255,190,11,0.8);
+}
